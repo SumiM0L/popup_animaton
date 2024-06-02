@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn-animated {
+    transition: all 0.3s ease;
+  }
+  
+  .btn-animated:hover {
+    transform: scale(1.1);
+  }
+  
+  .btn-animated:active {
+    transform: scale(0.9);
+  }
+  
+
+
